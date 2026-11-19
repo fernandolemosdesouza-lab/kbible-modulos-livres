@@ -8,6 +8,24 @@
       "license": "Domínio Público",
       "size": "4.3 MB",
       "url": "https://raw.githubusercontent.com/fernandolemosdesouza-lab/kbible-modulos-livres/main/ALM1911.sqlite"
+    },
+    {
+      "id": "tb",
+      "name": "Tradução Brasileira",
+      "kind": "bible",
+      "language": "PT",
+      "license": "Domínio Público",
+      "size": "4.3 MB",
+      "url": "https://raw.githubusercontent.com/fernandolemosdesouza-lab/kbible-modulos-livres/main/TB.sqlite"
+    },
+    {
+      "id": "matthew_henry_obra_completa",
+      "name": "Matthew Henry — Obra Completa",
+      "kind": "commentary",
+      "language": "PT",
+      "license": "Domínio Público",
+      "size": "40.5 MB",
+      "url": "https://github.com/fernandolemosdesouza-lab/kbible-modulos-livres/releases/download/v1.0/C.Matthew.Henry.Obra.Completa.cmt.mybible"
     }
   ]
 }
