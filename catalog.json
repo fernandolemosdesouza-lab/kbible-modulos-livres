@@ -1,0 +1,13 @@
+{
+  "modules": [
+    {
+      "id": "alm1911",
+      "name": "Almeida 1911",
+      "kind": "bible",
+      "language": "PT",
+      "license": "Domínio Público",
+      "size": "",
+      "url": "https://raw.githubusercontent.com/fernandolemosdesouza-lab/kbible-modulos-livres/main/modulos/alm1911.mybible"
+    }
+  ]
+}
