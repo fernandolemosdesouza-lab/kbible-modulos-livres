@@ -1,31 +1,136 @@
 {
+  "version": 1,
+  "updated_at": "2026-11-20",
   "modules": [
     {
       "id": "alm1911",
-      "name": "Almeida 1911",
       "kind": "bible",
-      "language": "PT",
-      "license": "Domínio Público",
-      "size": "4.3 MB",
-      "url": "https://raw.githubusercontent.com/fernandolemosdesouza-lab/kbible-modulos-livres/main/ALM1911.sqlite"
+      "name": "Almeida 1911 (Clássica)",
+      "abbr": "ALM1911",
+      "language": "pt",
+      "filename": "ALM1911.sqlite",
+      "size_mb": 4.32,
+      "sha256": "5f61961d4710b40fe4e4db10b4a5e3ff03f5f394a1d4cb040969d4ab7dc1d93e"
     },
     {
       "id": "tb",
-      "name": "Tradução Brasileira",
       "kind": "bible",
-      "language": "PT",
-      "license": "Domínio Público",
-      "size": "4.3 MB",
-      "url": "https://raw.githubusercontent.com/fernandolemosdesouza-lab/kbible-modulos-livres/main/TB.sqlite"
+      "name": "Tradução Brasileira",
+      "abbr": "TB",
+      "language": "pt",
+      "filename": "TB.sqlite",
+      "size_mb": 4.27,
+      "sha256": "830b11d101ca2ec0fe548ace58093fb4b120d7dc3621fe1a50e676ad0f36ff7c"
     },
     {
-      "id": "matthew_henry_obra_completa",
-      "name": "Matthew Henry — Obra Completa",
+      "id": "kjv_strongs",
+      "kind": "bible",
+      "name": "King James Version (com Strong)",
+      "abbr": "KJV+",
+      "language": "en",
+      "filename": "kjv_strongs.sqlite",
+      "size_mb": 9.24,
+      "sha256": "3bc8aa6068369b42fbdaba306ec8107740f275f6b017aed69900834d0e7a8507"
+    },
+    {
+      "id": "geneva",
+      "kind": "bible",
+      "name": "Geneva Bible (1599)",
+      "abbr": "GNV",
+      "language": "en",
+      "filename": "geneva.sqlite",
+      "size_mb": 5.9,
+      "sha256": "dca27633865a7720953e5708af5e5b2405072e6761d7f9543da38df852983d59"
+    },
+    {
+      "id": "coverdale",
+      "kind": "bible",
+      "name": "Coverdale Bible (1535)",
+      "abbr": "COV",
+      "language": "en",
+      "filename": "coverdale.sqlite",
+      "size_mb": 5.84,
+      "sha256": "52b2398e53786f898fd992a8526f5494038996b98008ca05397ee9be738b943f"
+    },
+    {
+      "id": "tyndale",
+      "kind": "bible",
+      "name": "Tyndale Bible",
+      "abbr": "TYN",
+      "language": "en",
+      "filename": "tyndale.sqlite",
+      "size_mb": 2.51,
+      "sha256": "014f7a52e9d4cefa5a58808ad27c37b1c568e753c7881de3377a268a72f11127"
+    },
+    {
+      "id": "rv_1909_strongs",
+      "kind": "bible",
+      "name": "Reina-Valera 1909 (con Strong)",
+      "abbr": "RV1909+",
+      "language": "es",
+      "filename": "rv_1909_strongs.sqlite",
+      "size_mb": 8.41,
+      "sha256": "7280dd87653d81410c8aa9dffbe2b5f84ffbfd00b957a1d8e3b2b91a618aac90"
+    },
+    {
+      "id": "tr",
+      "kind": "bible",
+      "name": "Textus Receptus (Grego)",
+      "abbr": "TR",
+      "language": "grc",
+      "filename": "tr.sqlite",
+      "size_mb": 1.99,
+      "sha256": "0b53bfc300a3c56ed572a8016f191ac91461b55e3767c75917f7ab7b08126646"
+    },
+    {
+      "id": "wlc",
+      "kind": "bible",
+      "name": "Westminster Leningrad Codex (Hebraico)",
+      "abbr": "WLC",
+      "language": "he",
+      "filename": "wlc.sqlite",
+      "size_mb": 6.18,
+      "sha256": "1883a982e22f13e2fdbb91ba70bc552b69090b31b20c3710b10ceb76643868ce"
+    },
+    {
+      "id": "matthew_henry_completa",
       "kind": "commentary",
-      "language": "PT",
-      "license": "Domínio Público",
-      "size": "40.5 MB",
-      "url": "https://github.com/fernandolemosdesouza-lab/kbible-modulos-livres/releases/download/v1.0/C.Matthew.Henry.Obra.Completa.cmt.mybible"
+      "name": "Comentário Bíblico Matthew Henry (Obra Completa)",
+      "abbr": "MH",
+      "language": "pt",
+      "filename": "C.Matthew.Henry.Obra.Completa.cmt.mybible",
+      "size_mb": 40.5,
+      "sha256": "ad0c59af33c5747f10da85c4369f240a01ce8bba09fcfeb60b1b7f394898a1ec"
+    },
+    {
+      "id": "adam_clarke_vt",
+      "kind": "commentary",
+      "name": "Comentário Bíblico Adam Clarke — Antigo Testamento",
+      "abbr": "Clarke-VT",
+      "language": "pt",
+      "filename": "ADAM.CLARKE.-.VELHO.TESTAMENTO.cmt.mybible",
+      "size_mb": 32.4,
+      "sha256": "7cf172e7d216d4fae66cfe85d852d6caef74e0f4b59021553826f569e16c3872"
+    },
+    {
+      "id": "jp_lange",
+      "kind": "commentary",
+      "name": "Comentário Bíblico J. P. Lange",
+      "abbr": "Lange",
+      "language": "pt",
+      "filename": "Comentario.J.P.Lange.cmt.mybible",
+      "size_mb": 93.8,
+      "sha256": "ce650195aba1106e646f73607b7bbf64b4162b14510d3f40987da850280cd5a5"
+    },
+    {
+      "id": "john_gill",
+      "kind": "commentary",
+      "name": "Exposição Bíblica — John Gill",
+      "abbr": "Gill",
+      "language": "pt",
+      "filename": "EXPOSICAO.BIBLICA.-.John.Gill.cmt.mybible",
+      "size_mb": 1.19,
+      "sha256": "47474cb9e4422256a65417b3f12d73e851fc619"
     }
   ]
 }
